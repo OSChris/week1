@@ -1,14 +1,16 @@
 puts "What is the year of the make of your car?"
-year = gets.chomp
+year = gets.chomp.to_i
 
-if year.to_i > 2014
+if year > 2014
 	puts "Your car is from the future!"
-elsif (year.to_i >= 2011)
+elsif year >= 2011
 	puts "Your car is new!"
-elsif year.to_i >= 2002
+elsif year >= 2002
 	puts "Your car is old."
-else
+elsif year >= 1995
 	puts "Your car is very old."
+else
+  puts "Your car is ancient."
 end
 		
 		
