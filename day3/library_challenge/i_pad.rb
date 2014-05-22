@@ -1,4 +1,4 @@
-class IPad < Electronic
+class IPad < Library
 
   attr_accessor :e_books
   attr_accessor :audio_books

@@ -1,6 +1,4 @@
-require './electronic.rb'
-
-class Kindle < Electronic
+class Kindle < Library
 
   attr_accessor :e_books
   attr_accessor :audio_books

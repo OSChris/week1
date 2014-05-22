@@ -1,6 +1,4 @@
-require './electronic.rb'
-
-class PersonalComputer < Electronic
+class PersonalComputer < Library
 
   attr_accessor :e_books
   attr_accessor :audio_books

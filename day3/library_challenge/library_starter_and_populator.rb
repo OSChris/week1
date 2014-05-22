@@ -1,7 +1,4 @@
-#Library
 require './library.rb'
-#Electronic father
-require './electronic.rb'
 #Electronic children
 require './i_pad.rb'
 require './kindle.rb'
@@ -13,6 +10,7 @@ require './paper_book.rb'
 require './e_book.rb'
 require './audio_book.rb'
 
+times do
 #Library
 mylib = Library.new
 
@@ -96,10 +94,6 @@ mylib.put_in_library(myshelf)
 mylib.upload(mypad)
 mylib.upload(mykindle)
 mylib.upload(mypc)
-
-
-
-
 
 
 
